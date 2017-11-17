@@ -1,0 +1,83 @@
+@media screen and (max-width: 420px) {
+  .class {
+    [styles for this class here]
+  }
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.valikko {
+  height: 50px;
+  width: 100%;
+  color: #333;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(49, 52, 50);
+}
+
+p {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Crete Round";
+  font-size: 22px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  padding: 14px 16px;
+  list-style-type: none;
+  display: inline;
+}
+
+li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 25px;
+  float: left;
+  position: relative;
+  padding: 10px;
+  font-family: "Crete Round";
+  font-size: 22px;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  font-family: "Crete Round";
+  font-size: 22px;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  font-family: "Crete Round";
+  font-size: 22px;
+}
+
+h3 {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  font-family: "Crete Round";
+  font-size: 22px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

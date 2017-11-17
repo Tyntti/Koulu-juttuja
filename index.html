@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <title>Martti Tyrväinen</title>
+
+    <link rel="stylesheet" type="text/css" href="tyyli.css">
+      <link href="https://fonts.googleapis.com/css?family=Crete Round" rel="stylesheet">
+
+
+  </head>
+  <body id="koti">
+
+
+<div class="backgroung-wrap">
+
+<video id="video" preload="auto" autoplay="true" loop="loop" muted="muted">
+      <source src="MountainFog.mp4" type="video/mp4">
+    </video>
+</div>
+
+
+    <nav class="valikko" id="valikko">
+      <ul>
+      <li><a href="#koti">Koti</a></li>
+      <li><a href="#yt">Tietoa</a></li>
+      <li><a href="#tyo">Työt</a></li>
+      <li><a href="#social">Somet</a></li>
+    </ul>
+  </nav>
+
+
+
+    <div class="yt" id="yt">
+
+    <h2>Tietoa</h2>
+    <p>Toisen vuoden opiskelija.</p><br>
+    <p>Täältä löydät töitäni joita olen tehnyt ja tulen tekemään</p>
+
+</div>
+
+
+
+<div class="tyo" id="tyo">
+    <h1>Koulutöitä joita teen</h1>
+
+    <a href="https://www.reddit.com/r/GlobalOffensive">Tärkein oppimis sivu</a>
+    <li></li><br>
+    <li></li><br>
+    <h3></h3><br>
+    <li></li><br>
+    <h3></h3><br>
+    <li></li><br>
+</div>
+
+
+<div class="social" id="social">
+  <h1>Sosiaalisia medioita joista voit tavoittaa minut</h1>
+
+  <a href="http://steamcommunity.com/id/tyntti">Steam</a>
+  <a href="https://www.instagram.com/tyntti_/">Instagram</a>
+</div>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+
+  </body>
+</html>
